@@ -1,111 +1,110 @@
-# Turkish translation for openobject-addons
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# Russian translation for openobject-addons
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-# Ahmet Altınışık <aaltinisik@altinkaya.com.tr>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2013-06-07 19:36+0000\n"
-"PO-Revision-Date: 2013-04-09 18:47+0000\n"
-"Last-Translator: Ayhan KIZILTAN <Unknown>\n"
-"Language-Team: OpenERP Türkiye Yerelleştirmesi\n"
+"PO-Revision-Date: 2013-08-05 11:19+0000\n"
+"Last-Translator: Chertykov Denis <chertykov@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-11-21 05:57+0000\n"
 "X-Generator: Launchpad (build 16831)\n"
-"Language: tr\n"
 
 #. module: account_bank_statement_extensions
 #: help:account.bank.statement.line.global,name:0
 msgid "Originator to Beneficiary Information"
-msgstr "Yararlanan taraf Bilgisinin Kaynağı"
+msgstr "Информация от плательщика получателю"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 #: selection:account.bank.statement.line,state:0
 msgid "Confirmed"
-msgstr "Onaylandı"
+msgstr "Подтверждено"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement:0
 #: view:account.bank.statement.line:0
 msgid "Glob. Id"
-msgstr "Gen. Id"
+msgstr ""
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0
 msgid "CODA"
-msgstr "CODA"
+msgstr ""
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,parent_id:0
 msgid "Parent Code"
-msgstr "Ana Kod"
+msgstr "Основной код"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Debit"
-msgstr "Borç"
+msgstr "Дебет"
 
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:0
 #: model:ir.actions.act_window,name:account_bank_statement_extensions.action_cancel_statement_line
 #: model:ir.model,name:account_bank_statement_extensions.model_cancel_statement_line
 msgid "Cancel selected statement lines"
-msgstr "Seçili hesap ekstresi kalemlerini iptal et"
+msgstr "Отмена выбранных позиций выписки"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,val_date:0
 msgid "Value Date"
-msgstr "Değer Tarihi"
+msgstr "Дата зачисления"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Group By..."
-msgstr "Gruplandır..."
+msgstr "Группировать по ..."
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 #: selection:account.bank.statement.line,state:0
 msgid "Draft"
-msgstr "Taslak"
+msgstr "Черновик"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Statement"
-msgstr "Hesap özeti"
+msgstr "Выписка"
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:0
 #: model:ir.actions.act_window,name:account_bank_statement_extensions.action_confirm_statement_line
 #: model:ir.model,name:account_bank_statement_extensions.model_confirm_statement_line
 msgid "Confirm selected statement lines"
-msgstr "Seçili hesap özeti kalemlerini onayla"
+msgstr "Подтверждение выбранных позиций выписки"
 
 #. module: account_bank_statement_extensions
 #: report:bank.statement.balance.report:0
 #: model:ir.actions.report.xml,name:account_bank_statement_extensions.bank_statement_balance_report
 msgid "Bank Statement Balances Report"
-msgstr "Banka Durumu Raporu"
+msgstr "Отчет об остатках банковской выписки"
 
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:0
 msgid "Cancel Lines"
-msgstr "Kalemleri İptal et"
+msgstr "Отменить позиции"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line.global:0
 #: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line_global
 msgid "Batch Payment Info"
-msgstr "Toplu Ödeme Bilgisi"
+msgstr ""
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,state:0
 msgid "Status"
-msgstr "Durum"
+msgstr "Статус"
 
 #. module: account_bank_statement_extensions
 #: code:addons/account_bank_statement_extensions/account_bank_statement.py:129
@@ -114,101 +113,101 @@ msgid ""
 "Delete operation not allowed.             Please go to the associated bank "
 "statement in order to delete and/or modify bank statement line."
 msgstr ""
-"Silme işlemine izin verilmez. Banka hesap özeti kalemini silmek/değiştirmek "
-"için lütfen ilgili banka hesap özetini açın."
+"Операция удаления запрещена. Пожалуйста, обратитесь к соответствующей "
+"банковской выписке для удаления/изменения позиции."
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:0
 msgid "or"
-msgstr "ya da"
+msgstr "или"
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:0
 msgid "Confirm Lines"
-msgstr "Kalemleri Onayla"
+msgstr "Подтвердить позиции"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line.global:0
 msgid "Transactions"
-msgstr "İşlemler"
+msgstr "Операции"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,type:0
 msgid "Type"
-msgstr "Tip"
+msgstr "Тип"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 #: report:bank.statement.balance.report:0
 msgid "Journal"
-msgstr "Günlük"
+msgstr "Журнал"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Confirmed Statement Lines."
-msgstr "Onaylanmış Hesap Özeti Kalemleri."
+msgstr "Подтвержденные позиции выписки."
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Credit Transactions."
-msgstr "Alacak İşlemleri."
+msgstr "Операции по кредиту"
 
 #. module: account_bank_statement_extensions
 #: model:ir.actions.act_window,help:account_bank_statement_extensions.action_cancel_statement_line
 msgid "cancel selected statement lines."
-msgstr "Seçili hesap özeti kalemlerini iptal et."
+msgstr "отменить выбранные позиции выписки"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_number:0
 msgid "Counterparty Number"
-msgstr "Karşı Taraf Numarası"
+msgstr "Число контрагентов"
 
 #. module: account_bank_statement_extensions
 #: report:bank.statement.balance.report:0
 msgid "Closing Balance"
-msgstr "Kapanış Bakiyesi"
+msgstr "Итоговый баланс"
 
 #. module: account_bank_statement_extensions
 #: report:bank.statement.balance.report:0
 msgid "Date"
-msgstr "Tarih"
+msgstr "Дата"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 #: field:account.bank.statement.line,globalisation_amount:0
 msgid "Glob. Amount"
-msgstr "Gen. Tutar"
+msgstr ""
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Debit Transactions."
-msgstr "Borç İşlemleri."
+msgstr "Операции по дебету"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Extended Filters..."
-msgstr "Genişletişmiş Süzgeçler..."
+msgstr "Расширенные фильтры..."
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:0
 msgid "Confirmed lines cannot be changed anymore."
-msgstr "Onaylı kalemler artık değiştirilemez."
+msgstr "Нельзя изменить подтвержденные позиции."
 
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:0
 msgid "Are you sure you want to cancel the selected Bank Statement lines ?"
 msgstr ""
-"Seçili Banka Hesap Özeti kalemlerini iptal etmek istediğinizden emin misiniz?"
+"Вы уверены, что хотите отменить выбранные позиции банковской выписки ?"
 
 #. module: account_bank_statement_extensions
 #: report:bank.statement.balance.report:0
 msgid "Name"
-msgstr "Adı"
+msgstr "Название"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,name:0
 msgid "OBI"
-msgstr "OBI"
+msgstr "Назначение"
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0
@@ -218,58 +217,58 @@ msgstr "ISO 20022"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Notes"
-msgstr "Notlar"
+msgstr "Примечания"
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0
 msgid "Manual"
-msgstr "El ile"
+msgstr "Ручной"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Bank Transaction"
-msgstr "Banka İşlemleri"
+msgstr "Банковские операции"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Credit"
-msgstr "Alacak"
+msgstr "Кредит"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,amount:0
 msgid "Amount"
-msgstr "Tutar"
+msgstr "Сумма"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Fin.Account"
-msgstr "Fin.Hesabı"
+msgstr "Фин. Счет"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_currency:0
 msgid "Counterparty Currency"
-msgstr "Karşı Taraf Para Birimi"
+msgstr "Валюта контрагента"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_bic:0
 msgid "Counterparty BIC"
-msgstr "Karşı Taraf BIC"
+msgstr "БИК контрагента"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,child_ids:0
 msgid "Child Codes"
-msgstr "Alt Kodlar"
+msgstr "Субкоды"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Search Bank Transactions"
-msgstr "Banka İşlemi Ara"
+msgstr "Поиск банковских операций"
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:0
 msgid "Are you sure you want to confirm the selected Bank Statement lines ?"
 msgstr ""
-"Seçili Banka Hesap Özeti kalemlerini onaylamak istediğinizden emin misiniz?"
+"Вы уверены, что хотите,  подтвердить выбранные позиции банковской выписки ?"
 
 #. module: account_bank_statement_extensions
 #: help:account.bank.statement.line,globalisation_id:0
@@ -277,87 +276,86 @@ msgid ""
 "Code to identify transactions belonging to the same globalisation level "
 "within a batch payment"
 msgstr ""
-"Bir toplu ödemede aynı genelleştirme seviyesine ait işlemlerin tanımlama Kodu"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Draft Statement Lines."
-msgstr "Taslak Hesap Özeti kalemleri"
+msgstr "Черновики позиций выписки."
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Glob. Am."
-msgstr "Gen. Tut."
+msgstr ""
 
 #. module: account_bank_statement_extensions
 #: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "Banka Hesap Özeti Kalemi"
+msgstr "Позиция банковской выписки"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,code:0
 msgid "Code"
-msgstr "Kod"
+msgstr "Код"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_name:0
 msgid "Counterparty Name"
-msgstr "Karşı Taraf Adı"
+msgstr "Название контрагента"
 
 #. module: account_bank_statement_extensions
 #: model:ir.model,name:account_bank_statement_extensions.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr "Banka Hesapları"
+msgstr "Банковские счета"
 
 #. module: account_bank_statement_extensions
 #: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement
 msgid "Bank Statement"
-msgstr "Banka Hesap Özeti"
+msgstr "Банковская выписка"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Statement Line"
-msgstr "Hesap Özeti Kalemi"
+msgstr "Позиция выписки"
 
 #. module: account_bank_statement_extensions
 #: sql_constraint:account.bank.statement.line.global:0
 msgid "The code must be unique !"
-msgstr "Kod eşsiz olamlı!"
+msgstr "Код должен быть уникальным !"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,bank_statement_line_ids:0
 #: model:ir.actions.act_window,name:account_bank_statement_extensions.action_bank_statement_line
 #: model:ir.ui.menu,name:account_bank_statement_extensions.bank_statement_line
 msgid "Bank Statement Lines"
-msgstr "Banka Hesap Özeti Kalemleri"
+msgstr "Позиции банковской выписки"
 
 #. module: account_bank_statement_extensions
 #: code:addons/account_bank_statement_extensions/account_bank_statement.py:129
 #, python-format
 msgid "Warning!"
-msgstr "Uyarı!"
+msgstr "Внимание!"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line.global:0
 msgid "Child Batch Payments"
-msgstr "Alt Toplu Ödemeler"
+msgstr ""
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:0
 msgid "Cancel"
-msgstr "İptal"
+msgstr "Отмена"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Statement Lines"
-msgstr "Hesap Özeti Kalemleri"
+msgstr "Позиции выписки"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:0
 msgid "Total Amount"
-msgstr "Toplam Tutar"
+msgstr "Итоговая сумма"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,globalisation_id:0
 msgid "Globalisation ID"
-msgstr "Genelleştirme ID"
+msgstr ""
